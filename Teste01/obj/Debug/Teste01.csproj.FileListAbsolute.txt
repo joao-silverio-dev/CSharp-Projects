@@ -1,0 +1,6 @@
+/Users/silverio/RiderProjects/CSharp-Projects/Teste01/bin/Debug/Teste01.exe
+/Users/silverio/RiderProjects/CSharp-Projects/Teste01/bin/Debug/Teste01.pdb
+/Users/silverio/RiderProjects/CSharp-Projects/Teste01/obj/Debug/Teste01.csproj.AssemblyReference.cache
+/Users/silverio/RiderProjects/CSharp-Projects/Teste01/obj/Debug/Teste01.csproj.CoreCompileInputs.cache
+/Users/silverio/RiderProjects/CSharp-Projects/Teste01/obj/Debug/Teste01.exe
+/Users/silverio/RiderProjects/CSharp-Projects/Teste01/obj/Debug/Teste01.pdb
