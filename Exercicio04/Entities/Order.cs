@@ -1,5 +1,7 @@
 using System;
+using System.Text;
 using System.Collections.Generic;
+
 using Exercicio04.Entities.Enum;
 
 
@@ -7,10 +9,10 @@ namespace Exercicio04.Entities
 {
     public class Order
     {
-        public DateTime Moment = DateTime.Now;
+        public DateTime Moment;
         public OrderStatus Status;
-        public List<OrderItem> orderItems = new List<OrderItem>();
-        public Client Client { get; set; }
+        Client Client;
+        public List<OrderItem> Items = new List<OrderItem>();
 
         public Order(DateTime moment, OrderStatus status, Client client)
         {
@@ -21,22 +23,39 @@ namespace Exercicio04.Entities
 
         public void AddItem(OrderItem item)
         {
-            orderItems.Add(item);
+            Items.Add(item);
         }
 
         public void RemoveItem(OrderItem item)
         {
-            orderItems.Remove(item);
+            Items.Remove(item);
         }
 
         public double Total()
         {
-            double sum = 0.0;
-            foreach (OrderItem item in orderItems)
+            double sum = 0;
+            foreach (OrderItem item in Items)
             {
-                sum += item.SubTotal();
+                sum += item.Quantity * item.Price;
             }
+
             return sum;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder myString = new StringBuilder();
+            myString.Append($"Order Moment {Moment}\n");
+            myString.Append($"Order Status {Status}\n");
+            myString.Append($"Client: {Client}\n");
+            foreach (OrderItem item in Items)
+            {
+                myString.Append(item);
+            }
+
+            myString.Append($"Total price: R$ {Total()}");
+
+            return myString.ToString();
         }
     }
 }

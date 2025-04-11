@@ -10,5 +10,6 @@ namespace Exercicio04.Entities
             Name = name;
             Price = price;
         }
+        
     }
 }

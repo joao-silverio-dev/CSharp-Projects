@@ -5,11 +5,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{219404E8-2863-43C6-8E79-7CBE4CB7B72A}</ProjectGuid>
+        <ProjectGuid>{ACC1D86B-0BEC-4FA5-99EF-25711643CF79}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Exercicio04</RootNamespace>
-        <AssemblyName>Exercicio04</AssemblyName>
+        <RootNamespace>Exercicio05</RootNamespace>
+        <AssemblyName>Exercicio05</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -40,12 +40,6 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Entities\Client.cs" />
-        <Compile Include="Entities\Enum\OrderStatus.cs" />
-        <Compile Include="Entities\Order.cs" />
-        <Compile Include="Entities\OrderItem.cs" />
-        <Compile Include="Entities\Product.cs" />
-        <Compile Include="Entities\ReadData.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>

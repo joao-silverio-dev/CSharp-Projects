@@ -4,15 +4,18 @@ namespace Exercicio04.Entities
     {
         public int Quantity { get; set; }
         public double Price { get; set; }
+        public Product Product { get; set; }
 
-        public OrderItem(Product product)
+        public OrderItem(int quantity, double price, Product product)
         {
-            
+            Quantity = quantity;
+            Price = price;
+            this.Product = product;
         }
-        
-        public double SubTotal()
+
+        public override string ToString()
         {
-            return Quantity * Price;
+            return $"{Product.Name}, R$ {Product.Price}, Subtotal: ${Product.Price * Quantity}\n";
         }
     }
 }
