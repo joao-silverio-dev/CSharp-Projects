@@ -5,11 +5,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{33C57D13-6CBF-4370-8DF0-45E32232F9BF}</ProjectGuid>
+        <ProjectGuid>{F129664F-C947-4732-AB63-A94E08041D49}</ProjectGuid>
         <OutputType>Exe</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>Exercicio06</RootNamespace>
-        <AssemblyName>Exercicio06</AssemblyName>
+        <RootNamespace>Exercicio07</RootNamespace>
+        <AssemblyName>Exercicio07</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -40,8 +40,9 @@
         <Reference Include="System.Xml"/>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Entities\Employee.cs" />
-        <Compile Include="Entities\OutsourcedEmployee.cs" />
+        <Compile Include="Entities\ImportedProduct.cs" />
+        <Compile Include="Entities\Product.cs" />
+        <Compile Include="Entities\UsedProduct.cs" />
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>

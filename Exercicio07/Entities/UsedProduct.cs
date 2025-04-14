@@ -1,7 +1,14 @@
+using System;
+
 namespace Exercicio07.Entities
 {
-    public class UsedProduct
+    public class UsedProduct : Product
     {
-        
+        public DateTime ManufactureDate { get; set; }
+
+        public UsedProduct(string name, double price, DateTime manufactureDate) : base(name, price)
+        {
+            ManufactureDate = manufactureDate;
+        }
     }
 }

@@ -1,6 +1,6 @@
 namespace Exercicio05.Entities
 {
-    public class SavingsAccountPlus
+    public class SavingsAccountPlus : SavingsAccount
     {
         
     }
