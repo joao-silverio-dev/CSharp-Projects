@@ -22,7 +22,7 @@ namespace Exercicio19
             
             CarRental carRental = new CarRental(pickUpTime, returnTime, new Vehicle(carModel));
 
-            RentalService rentalService = new RentalService(pricePerHour, pricePerDay);
+            RentalService rentalService = new RentalService(pricePerHour, pricePerDay, new BrazilTaxService());
 
             rentalService.ProcessInvoice(carRental);
 
