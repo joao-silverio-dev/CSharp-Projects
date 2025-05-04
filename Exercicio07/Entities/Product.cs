@@ -1,3 +1,5 @@
+using System;
+
 namespace Exercicio07.Entities
 {
     public class Product
@@ -14,6 +16,11 @@ namespace Exercicio07.Entities
         public string PriceTag()
         {
             return $"{Name} - R$ {Price}";
+        }
+
+        public override string ToString()
+        {
+            return $"{Name}, R$ {Price}\n";
         }
     }
 }

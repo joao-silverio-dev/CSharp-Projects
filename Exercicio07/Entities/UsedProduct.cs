@@ -10,5 +10,9 @@ namespace Exercicio07.Entities
         {
             ManufactureDate = manufactureDate;
         }
+        public override string ToString()
+        {
+            return $"{Name}, R$ {Price}, Custom Fee: {ManufactureDate.ToString("d")}\n";
+        }
     }
 }

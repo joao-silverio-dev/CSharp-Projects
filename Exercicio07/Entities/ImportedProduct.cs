@@ -8,5 +8,11 @@ namespace Exercicio07.Entities
         {
             CustomFees = customFees;
         }
+        
+        public override string ToString()
+        {
+            return $"{Name}, R$ {Price}, Custom Fee: {CustomFees}\n";
+        }
+        
     }
 }

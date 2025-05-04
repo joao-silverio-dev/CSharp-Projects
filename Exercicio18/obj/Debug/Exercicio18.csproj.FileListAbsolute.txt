@@ -1,0 +1,6 @@
+/Users/silverio/Library/Mobile Documents/com~apple~CloudDocs/Desenvolvimento/C#/Intermediario - Curso de Desenvolvimento CSharp/Exercicio18/bin/Debug/Exercicio18.exe
+/Users/silverio/Library/Mobile Documents/com~apple~CloudDocs/Desenvolvimento/C#/Intermediario - Curso de Desenvolvimento CSharp/Exercicio18/bin/Debug/Exercicio18.pdb
+/Users/silverio/Library/Mobile Documents/com~apple~CloudDocs/Desenvolvimento/C#/Intermediario - Curso de Desenvolvimento CSharp/Exercicio18/obj/Debug/Exercicio18.csproj.AssemblyReference.cache
+/Users/silverio/Library/Mobile Documents/com~apple~CloudDocs/Desenvolvimento/C#/Intermediario - Curso de Desenvolvimento CSharp/Exercicio18/obj/Debug/Exercicio18.csproj.CoreCompileInputs.cache
+/Users/silverio/Library/Mobile Documents/com~apple~CloudDocs/Desenvolvimento/C#/Intermediario - Curso de Desenvolvimento CSharp/Exercicio18/obj/Debug/Exercicio18.exe
+/Users/silverio/Library/Mobile Documents/com~apple~CloudDocs/Desenvolvimento/C#/Intermediario - Curso de Desenvolvimento CSharp/Exercicio18/obj/Debug/Exercicio18.pdb
